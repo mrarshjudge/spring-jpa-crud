@@ -3,7 +3,7 @@ package com.spring.database.jdbc;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
-
+import org.springframework.jdbc.core;
 import javax.swing.tree.RowMapper;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,7 @@ public class PersonJDBCDao {
 	
 	
 	
-	class PersonRowMapper implements org.springframework.jdbc.core.RowMapper<PersonBean>{
+	class PersonRowMapper implements RowMapper<PersonBean>{
 
 		@Override
 		public PersonBean mapRow(ResultSet rs, int rowNum) throws SQLException {
