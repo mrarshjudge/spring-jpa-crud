@@ -1,21 +1,22 @@
-# Hi, I'm Arshdeep Singh 👋
+# Spring Boot JPA CRUD Example
 
-I'm a Java Backend Developer with 6.4 years of experience in building scalable microservices and enterprise applications using Java 8, Spring Boot, RESTful APIs, and MySQL.
+This is a simple Spring Boot application demonstrating CRUD operations using Spring Data JPA and MySQL.
 
-## 💼 Tech Stack
-- 💻 Core Java, Java 8+, Collections, Spring Boot, REST, SOAP
-- 🛠 Hibernate, JPA, Maven
-- 🗄️ MySQL
-- 🔐 Spring Security, OAuth2
-- ☁️ AWS, Jenkins, Docker
-- 🔧 Git, GitHub, CI/CD
+## 🔧 Technologies Used
 
-## 📂 Projects
-- [Employee Management System](https://github.com/your-username/employee-management-system) - Spring Boot CRUD with JWT Auth
-- [RESTful API Boilerplate](https://github.com/your-username/springboot-rest-api-template) - Ready-to-use Spring Boot REST template
-- [Multithreading Examples](https://github.com/your-username/java-multithreading) - Core Java concurrency concepts with code
+- Java 8
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- MySQL
+- Maven
 
-## 📫 How to reach me
-- 📧 Email: arshdeep.jobhunt@gmail.com
-- 💼 [LinkedIn Profile](https://www.linkedin.com/in/arshdeep-singh-b61735351/)
+## 🚀 Features
+
+- Create, Read, Update, Delete (CRUD) functionality for entities
+- RESTful API endpoints
+- Exception handling
+- Proper layered architecture (Controller, Service, Repository)
+
+## 📁 Project Structure
 
